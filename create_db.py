@@ -1,6 +1,9 @@
 import collections
 from pymongo import MongoClient
 
-dburl = MongoClient("mongodb://localhost", 27017)
+dbUrl = MongoClient("mongodb://localhost", 27017)
 
-db= dburl['FuSA']
+db= dbUrl['FuSA']
+
+collections1 = db["Usuarios"]
+collections1.insert_one({"nombre":"aaaaa","apellido":"asdasdas","Rut":12345678-9})
