@@ -1,0 +1,32 @@
+Colección “Archivos”
+
+{ 
+ID
+fecha de grabacion
+ciudad
+duracion
+formato
+latitud
+longitud
+exterior
+usuario: { RUT, nombre, apellido }
+segmentos: [
+    { ID, 
+    formato, 
+    duracion, 
+   inicio, 
+    fin,
+   etiquetas: [ { nombre_fuente, descripcion, id_analizador}]
+ ]
+}
+
+Listar las analisis del analizador “10” → muy complejo y poco optimizado
+
+Cuales son los archivos que contienen un ruido de perro:
+
+Coleccion “Tipo de fuentes”
+
+{
+tipo:
+archivos: [ID, ID, ID]
+}
